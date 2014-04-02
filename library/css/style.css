@@ -5915,14 +5915,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #222222;
+  color: #461f43;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.4; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
-    color: #6f6f6f;
+    color: #a94ba2;
     line-height: 0; }
 
 h1 {
@@ -5945,7 +5945,7 @@ h6 {
 
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #a94ba2;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
@@ -6051,17 +6051,17 @@ blockquote {
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
-    color: #555555; }
+    color: #873c81; }
     blockquote cite:before {
       content: "\2014 \0020"; }
     blockquote cite a,
     blockquote cite a:visited {
-      color: #555555; }
+      color: #873c81; }
 
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f; }
+  color: #a94ba2; }
 
 /* Microformats */
 .vcard {
@@ -7290,6 +7290,28 @@ MEDIUM
   
   ******************************************************************/
   /*********************
+  HEADER STYLES
+  *********************/
+  .header {
+    margin-bottom: 0; }
+    .header .fi-social-facebook {
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      color: #461f43;
+      font-size: 48px;
+      font-size: 3rem; }
+
+  .logo {
+    background: #c692c2 url("../images/header.gif") top left no-repeat;
+    width: 100%;
+    height: 150px;
+    background-size: contain;
+    text-indent: -100%;
+    overflow: hidden;
+    margin-top: 0; }
+
+  /*********************
   NAVIGATION STYLES
   *********************/
   .navbar-container {
@@ -7364,6 +7386,11 @@ you can add resource intensive styles.
   /*********************
   HEADER STYLES
   *********************/
+  .logo {
+    height: 161px;
+    width: 970px;
+    background-size: auto; }
+
   /*********************
   NAVIGATION STYLES
   *********************/

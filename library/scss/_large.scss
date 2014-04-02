@@ -27,7 +27,11 @@ HEADER STYLES
 
 .header {}
 
-	#logo {}
+	.logo {
+		height: 161px;
+		width: 970px;
+		background-size: auto;
+		}
 
 /*********************
 NAVIGATION STYLES

@@ -61,7 +61,7 @@
 					<div id="inner-header" class="row">
                     
 						<div class="large-12 columns">
-							<h1>
+							<h1 class="logo">
 								<a href="<?php echo home_url(); ?>" rel="nofollow">
 									<?php bloginfo('name'); ?>
 								</a>
@@ -69,6 +69,7 @@
 									<?php  bloginfo('description'); ?>
 								</small>
 							</h1>
+                            <a class="show-for-medium-up" href="#"><i class="fi-social-facebook"></i></a>
 						</div>
 
 					</div> <!-- end #inner-header -->
