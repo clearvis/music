@@ -7292,6 +7292,10 @@ MEDIUM
   /*********************
   NAVIGATION STYLES
   *********************/
+  .navbar-container {
+    width: 100%;
+    background: #461f43; }
+
   /*********************
   POSTS & CONTENT STYLES
   *********************/
