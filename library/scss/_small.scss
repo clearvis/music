@@ -172,6 +172,21 @@ POSTS & CONTENT STYLES
 	}
 }
 
+.marketing {
+	text-align: center;
+	
+	img {
+		border-radius: 50%;
+		margin-bottom: rem-calc(20);	
+	}
+	
+	.button:hover {
+		background: scale-color($primary-color, $lightness: -25%) !important;
+	}
+}
+	
+	
+
 .hentry {
 
 	header {}

@@ -7013,6 +7013,14 @@ POSTS & CONTENT STYLES
     background: #c692c2;
     color: #fff; }
 
+.marketing {
+  text-align: center; }
+  .marketing img {
+    border-radius: 50%;
+    margin-bottom: 1.25rem; }
+  .marketing .button:hover {
+    background: #a85aa2 !important; }
+
 /* end .hentry */
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
@@ -7300,7 +7308,11 @@ MEDIUM
       right: 5%;
       color: #461f43;
       font-size: 48px;
-      font-size: 3rem; }
+      font-size: 3rem;
+      -webkit-transition: color 200ms;
+      transition: color 200ms; }
+    .header .fi-social-facebook:hover {
+      color: white; }
 
   .logo {
     background: #c692c2 url("../images/header.gif") top left no-repeat;

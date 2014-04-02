@@ -20,6 +20,12 @@ HEADER STYLES
 		color: $secondary-color;
 		font-size: 48px;
 		font-size: 3rem;
+		-webkit-transition: color 200ms;
+   		transition:  color 200ms;
+	}
+	
+	.fi-social-facebook:hover {
+		color: white;
 	}
 }
 
