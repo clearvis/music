@@ -1,5 +1,6 @@
 .DS_Store
 library/scss/.sass-cache/*
+library/.sass-cache/*
 
 # Dreamweaver added files #
 ###########################
