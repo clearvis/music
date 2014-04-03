@@ -31,28 +31,28 @@ Template Name: Home Page
                        
                               <div class="large-4 small-6 columns">
                                 <img src="http://placehold.it/250x250&text=Thumbnail" />
-                                <div class="panel text-left" data-equalizer-watch>
+                                <div class="panel text-left clearfix" data-equalizer-watch>
                                 <h6>Workshop 1</h6>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, consequuntur.</p>
-                                <a href="#" class="button tiny">Button</a>
+                                <a href="#" class="button tiny right">Button</a>
                                 </div>
                               </div>
                        
                               <div class="large-4 small-6 columns">
                                 <img src="http://placehold.it/250x250&text=Thumbnail" />
-                                <div class="panel text-left" data-equalizer-watch>
+                                <div class="panel text-left clearfix" data-equalizer-watch>
                                 <h6>Workshop 2</h6>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, quaerat amet officiis nemo consectetur aut.</p>
-                                <a href="#" class="button tiny">Button</a>
+                                <a href="#" class="button tiny right">Button</a>
                                 </div>
                               </div>
                        
                               <div class="large-4 small-6 columns">
                                 <img src="http://placehold.it/250x250&text=Thumbnail" />
-                                <div class="panel text-left" data-equalizer-watch>
+                                <div class="panel text-left clearfix" data-equalizer-watch>
                                 <h6>Workshop 3</h6>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, in, accusantium reiciendis totam quasi dolores modi qui dolorem.</p>
-                                <a href="#" class="button tiny">Button</a>
+                                <a href="#" class="button tiny right">Button</a>
                                 </div>
                               </div>
                        

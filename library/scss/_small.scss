@@ -180,6 +180,10 @@ POSTS & CONTENT STYLES
 		margin-bottom: rem-calc(20);	
 	}
 	
+	.panel {
+		border-radius: $global-radius;
+	}
+	
 	.button {
 		background: #A1C692;
 		border-color: #527941;

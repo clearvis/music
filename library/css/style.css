@@ -7018,6 +7018,8 @@ POSTS & CONTENT STYLES
   .marketing img {
     border-radius: 50%;
     margin-bottom: 1.25rem; }
+  .marketing .panel {
+    border-radius: 3px; }
   .marketing .button {
     background: #A1C692;
     border-color: #527941; }
