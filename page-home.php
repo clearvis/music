@@ -56,7 +56,7 @@ Template Name: Home Page
                               <!-- Shows -->
                               <div class="large-4 small-6 columns">
                    
-                                <h4>Upcoming Shows</h4><hr>
+                                <h4>Upcoming Workshops</h4><hr>
                    
                                 <div class="row">
                                   <div class="large-1 column">
@@ -64,8 +64,8 @@ Template Name: Home Page
                                   </div>
                    
                                   <div class="large-9 columns">
-                                    <h5><a href="#">Venue Name</a></h5>
-                                    <h6 class="subheader show-for-small">Doors at 00:00pm</h6>
+                                    <h5><a href="#">Workshop Name</a></h5>
+                                    <h6 class="subheader">Date</h6>
                                   </div>
                                 </div><hr>
                    
@@ -76,7 +76,8 @@ Template Name: Home Page
                                     </div>
                    
                                     <div class="large-9 columns">
-                                      <h5 class="subheader"><a href="#">Venue Name</a></h5>
+                                      <h5 class="subheader"><a href="#">Workshop Name</a></h5>
+                                      <h6 class="subheader">Date</h6>
                                     </div>
                                   </div><hr>
                    
@@ -86,7 +87,8 @@ Template Name: Home Page
                                     </div>
                    
                                     <div class="large-9 columns">
-                                      <h5 class="subheader"><a href="#">Venue Name</a></h5>
+                                      <h5 class="subheader"><a href="#">Workshop Name</a></h5>
+                                      <h6 class="subheader">Date</h6>
                                     </div>
                                   </div><hr>
                    
@@ -96,7 +98,8 @@ Template Name: Home Page
                                     </div>
                    
                                     <div class="large-9 columns">
-                                      <h5 class="subheader"><a href="#">Venue Name</a></h5>
+                                      <h5 class="subheader"><a href="#">Workshop Name</a></h5>
+                                      <h6 class="subheader">Date</h6>
                                     </div>
                                   </div>
                                 </div>
@@ -117,9 +120,9 @@ Template Name: Home Page
                    
                               <div class="large-4 small-12 columns">
                    
-                                <h4>Blog</h4><hr>
+                                <h4>Lessons</h4><hr>
                                 <div class="panel">
-                                  <h5><a href="#">Post Title 1</a></h5>
+                                  <h5><a href="#">Type</a></h5>
                    
                                   <h6 class="subheader">
                                     Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Suspendisse ultrices ornare tempor...
@@ -129,14 +132,12 @@ Template Name: Home Page
                                 </div>
                    
                                 <div class="panel hide-for-small">
-                                  <h5><a href="#">Post Title 2 »</a></h5>
+                                  <h5><a href="#">Type 2 »</a></h5>
                                 </div>
                    
                                 <div class="panel hide-for-small">
-                                  <h5><a href="#">Post Title 3 »</a></h5>
+                                  <h5><a href="#">Type 3 »</a></h5>
                                 </div>
-                   
-                                <a href="#" class="right">Go To Blog »</a>
                    
                               </div>
                    
