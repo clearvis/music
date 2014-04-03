@@ -7315,7 +7315,7 @@ MEDIUM
       color: white; }
 
   .logo {
-    background: #c692c2 url("../images/header.gif") top left no-repeat;
+    background: #c692c2 url("../images/music-mill-header.gif") top left no-repeat;
     width: 100%;
     height: 150px;
     background-size: contain;
@@ -7399,7 +7399,7 @@ you can add resource intensive styles.
   HEADER STYLES
   *********************/
   .logo {
-    height: 161px;
+    height: 165px;
     width: 970px;
     background-size: auto; }
 
