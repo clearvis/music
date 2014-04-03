@@ -180,8 +180,13 @@ POSTS & CONTENT STYLES
 		margin-bottom: rem-calc(20);	
 	}
 	
+	.button {
+		background: #A1C692;
+		border-color: #527941;
+	}
+	
 	.button:hover {
-		background: scale-color($primary-color, $lightness: -25%) !important;
+		background: scale-color(#A1C692, $lightness: -25%) !important;
 	}
 }
 	
@@ -658,6 +663,9 @@ FOOTER STYLES
 .footer {
 	clear: both;
 	margin-top: 1em;
+	padding: 1.5rem;
+	background: $secondary-color;
+	color: #fff;
 }
 
 	/*
