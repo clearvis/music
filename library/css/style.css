@@ -6960,9 +6960,12 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
+  color: #794d76;
   /*adds highlight on hover */
   /* on click */
   /* mobile tap color */ }
+  a:hover, a:focus, a:visited:hover, a:visited:focus {
+    color: #ffd6fc; }
   a:link, a:visited:link {
     /*
     this highlights links on iPhones/iPads.
@@ -7010,14 +7013,26 @@ POSTS & CONTENT STYLES
 #content {
   /*adds highlight on hover */ }
   #content a:hover, #content a:focus {
-    background: #c692c2;
-    color: #fff; }
+    background: #fff;
+    color: #ffd6fc; }
+
+.panel {
+  /*adds highlight on hover */ }
+  .panel a, .panel a:visited {
+    color: #c692c2; }
+  .panel:hover, .panel:focus {
+    color: #ffd6fc; }
 
 .marketing {
   text-align: center; }
   .marketing img {
     border-radius: 50%;
-    margin-bottom: 1.25rem; }
+    margin-bottom: 1.25rem;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease; }
+  .marketing img:hover {
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25); }
   .marketing .panel {
     border-radius: 3px; }
   .marketing .button {

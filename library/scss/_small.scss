@@ -64,11 +64,11 @@ LINK STYLES
 *********************/
 
 a, a:visited {
-
+	color: $secondary-color;
 
 	/*adds highlight on hover */
 	&:hover, &:focus {
-
+		color: $primary-color-light;
 	}
 
 	/* on click */
@@ -167,8 +167,19 @@ POSTS & CONTENT STYLES
 #content {
 	/*adds highlight on hover */
 	a:hover, a:focus {
-		background: $primary-color;
-		color: #fff;
+		background: #fff;
+		color: $primary-color-light;
+	}
+}
+
+.panel {
+	a, a:visited {
+	color: $primary-color;
+	}
+
+	/*adds highlight on hover */
+	&:hover, &:focus {
+		color: $primary-color-light;
 	}
 }
 
@@ -178,6 +189,13 @@ POSTS & CONTENT STYLES
 	img {
 		border-radius: 50%;
 		margin-bottom: rem-calc(20);	
+		-webkit-transition: -webkit-transform 0.5s ease;
+		transition: transform 0.5s ease;
+	}
+	
+	img:hover {
+		-webkit-transform: scale(1.25);
+		transform: scale(1.25);
 	}
 	
 	.panel {
