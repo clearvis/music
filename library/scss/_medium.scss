@@ -55,6 +55,14 @@ NAVIGATION STYLES
 	background: #FFF;
 }
 
+.top-bar-section ul li:first-child {
+	margin-left: -15px;
+}
+
+.fixed .top-bar-section ul li:first-child {
+	margin-left: 0;
+}
+
 /*********************
 POSTS & CONTENT STYLES
 *********************/
