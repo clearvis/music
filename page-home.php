@@ -24,7 +24,7 @@ Template Name: Home Page
                         
                          <!-- Content Slider -->
  
-                          <div class="row">
+                          <!--<div class="row">
                             <div class="large-12 column hide-for-small">
                      
                               <div id="featured" data-orbit>
@@ -34,7 +34,7 @@ Template Name: Home Page
                                 </div>
                      
                           </div>
-                        </div>
+                        </div>-->
                      
                         <!-- End Content Slider -->
                         
