@@ -44,8 +44,8 @@
 
 				<header class="header" role="banner">
                 
-                	<div class="navbar-container">
-                    	<div class="row">
+                    	<div class="row navbar-container">
+                        
 							<?php get_template_part( 'partials/nav', 'offcanvas' ); ?>
     
                              <?php // get_template_part( 'partials/nav', 'topbar' ); ?>
@@ -56,7 +56,6 @@
                                  Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
                              
                         </div>
-                    </div>
 
 					<div id="inner-header" class="row">
                     
