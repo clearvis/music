@@ -25,7 +25,7 @@ Template Name: Home Page
                          <!-- Content Slider -->
  
                           <div class="row">
-                            <div class="large-12 hide-for-small">
+                            <div class="large-12 column hide-for-small">
                      
                               <div id="featured" data-orbit>
                                   <img src="http://placehold.it/1200x500&text=Slide Image 1" alt="slide image">

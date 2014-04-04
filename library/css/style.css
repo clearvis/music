@@ -474,8 +474,8 @@ body {
   font-size: 100%; }
 
 body {
-  background: #c692c2;
-  color: #222222;
+  background: white;
+  color: white;
   padding: 0;
   margin: 0;
   font-family: "Open Sans", Arial, sans-serif;
@@ -6036,7 +6036,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: white;
   border-bottom: 1px dotted #dddddd;
   cursor: help; }
 
@@ -6994,6 +6994,9 @@ HEADER STYLES
   .header #inner-header li {
     list-style: none; }
 
+#inner-header {
+  background: #c692c2; }
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -7015,6 +7018,9 @@ POSTS & CONTENT STYLES
   #content a:hover, #content a:focus {
     background: #fff;
     color: #ffd6fc; }
+
+#inner-content {
+  background: #c692c2; }
 
 .panel {
   /*adds highlight on hover */ }

@@ -136,6 +136,10 @@ HEADER STYLES
 			}
 		}
 }
+
+#inner-header {
+	background: $primary-color;
+}
     
 /*********************
 NAVIGATION STYLES
@@ -170,6 +174,10 @@ POSTS & CONTENT STYLES
 		background: #fff;
 		color: $primary-color-light;
 	}
+}
+
+#inner-content {
+	background: $primary-color;
 }
 
 .panel {
