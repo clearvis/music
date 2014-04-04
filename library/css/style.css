@@ -7029,6 +7029,10 @@ POSTS & CONTENT STYLES
   .panel:hover, .panel:focus {
     color: #ffd6fc; }
 
+.row.featured {
+  margin-bottom: 32px;
+  margin-bottom: 1.5rem; }
+
 .featured .subheader {
   color: #fff; }
 
