@@ -7290,7 +7290,6 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  margin-top: 1em;
   padding: 1.5rem;
   background: #794d76;
   color: #fff; }
@@ -7359,8 +7358,10 @@ MEDIUM
   NAVIGATION STYLES
   *********************/
   .navbar-container {
-    width: 100%;
     background: #794d76; }
+
+  .contain-to-grid {
+    background: #FFF; }
 
   /*********************
   POSTS & CONTENT STYLES
