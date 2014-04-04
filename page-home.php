@@ -64,7 +64,7 @@ Template Name: Home Page
                                   </div>
                    
                                   <div class="large-9 columns">
-                                    <h5><a href="#">Workshop Name</a></h5>
+                                    <h5>Workshop Name</h5>
                                     <h6 class="subheader">Date</h6>
                                   </div>
                                 </div><hr>
@@ -76,7 +76,7 @@ Template Name: Home Page
                                     </div>
                    
                                     <div class="large-9 columns">
-                                      <h5 class="subheader"><a href="#">Workshop Name</a></h5>
+                                      <h5 class="subheader">Workshop Name</h5>
                                       <h6 class="subheader">Date</h6>
                                     </div>
                                   </div><hr>
@@ -87,7 +87,7 @@ Template Name: Home Page
                                     </div>
                    
                                     <div class="large-9 columns">
-                                      <h5 class="subheader"><a href="#">Workshop Name</a></h5>
+                                      <h5 class="subheader">Workshop Name</h5>
                                       <h6 class="subheader">Date</h6>
                                     </div>
                                   </div><hr>
@@ -98,7 +98,7 @@ Template Name: Home Page
                                     </div>
                    
                                     <div class="large-9 columns">
-                                      <h5 class="subheader"><a href="#">Workshop Name</a></h5>
+                                      <h5 class="subheader">Workshop Name</h5>
                                       <h6 class="subheader">Date</h6>
                                     </div>
                                   </div>
@@ -122,7 +122,7 @@ Template Name: Home Page
                    
                                 <h4>Lessons</h4><hr>
                                 <div class="panel">
-                                  <h5><a href="#">Type</a></h5>
+                                  <h5>Type</h5>
                    
                                   <h6 class="subheader">
                                     Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Suspendisse ultrices ornare tempor...
@@ -132,11 +132,11 @@ Template Name: Home Page
                                 </div>
                    
                                 <div class="panel hide-for-small">
-                                  <h5><a href="#">Type 2 »</a></h5>
+                                  <h5>Type 2</h5>
                                 </div>
                    
                                 <div class="panel hide-for-small">
-                                  <h5><a href="#">Type 3 »</a></h5>
+                                  <h5>Type 3</h5>
                                 </div>
                    
                               </div>

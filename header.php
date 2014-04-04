@@ -68,7 +68,7 @@
 									<?php  bloginfo('description'); ?>
 								</small>
 							</h1>
-                            <a class="show-for-medium-up" href="#"><i class="fi-social-facebook"></i></a>
+                            <a class="show-for-medium-up" href="http://www.facebook.com/musicmill" title="Music Mill Facebook Page"><i class="fi-social-facebook"></i></a>
 						</div>
 
 					</div> <!-- end #inner-header -->

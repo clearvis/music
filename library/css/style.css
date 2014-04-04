@@ -5915,14 +5915,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #794d76;
+  color: white;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.4; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
-    color: #b083ad;
+    color: white;
     line-height: 0; }
 
 h1 {
@@ -5945,7 +5945,7 @@ h6 {
 
 .subheader {
   line-height: 1.4;
-  color: #b083ad;
+  color: white;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
@@ -6051,17 +6051,17 @@ blockquote {
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
-    color: #a26c9e; }
+    color: white; }
     blockquote cite:before {
       content: "\2014 \0020"; }
     blockquote cite a,
     blockquote cite a:visited {
-      color: #a26c9e; }
+      color: white; }
 
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #b083ad; }
+  color: white; }
 
 /* Microformats */
 .vcard {
@@ -6960,7 +6960,7 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #794d76;
+  color: #F8F99F;
   /*adds highlight on hover */
   /* on click */
   /* mobile tap color */ }
