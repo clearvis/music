@@ -83,6 +83,12 @@ NAVIGATION STYLES
 POSTS & CONTENT STYLES
 *********************/
 
+/* Add extra padding to full width page */
+.page-template-page-full-width-php .page {
+	padding: 0 16px;
+	padding: 0 1rem;
+}
+
 /* entry content */
 .entry-content {
 			

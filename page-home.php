@@ -55,54 +55,9 @@ Template Name: Home Page
                             <div class="row">
                               <!-- Shows -->
                               <div class="large-4 small-6 columns">
+                              
+                              <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Home Left')) : endif; ?>
                    
-                                <h4>Upcoming Workshops</h4><hr>
-                   
-                                <div class="row">
-                                  <div class="large-1 column">
-                                    <img src="http://placehold.it/50x50&text=[img]">
-                                  </div>
-                   
-                                  <div class="large-9 columns">
-                                    <h5>Workshop Name</h5>
-                                    <h6 class="subheader">Date</h6>
-                                  </div>
-                                </div><hr>
-                   
-                                <div class="hide-for-small">
-                                  <div class="row">
-                                    <div class="large-1 column">
-                                      <img src="http://placehold.it/50x50&text=[img]">
-                                    </div>
-                   
-                                    <div class="large-9 columns">
-                                      <h5 class="subheader">Workshop Name</h5>
-                                      <h6 class="subheader">Date</h6>
-                                    </div>
-                                  </div><hr>
-                   
-                                  <div class="row">
-                                    <div class="large-1 column">
-                                      <img src="http://placehold.it/50x50&text=[img]">
-                                    </div>
-                   
-                                    <div class="large-9 columns">
-                                      <h5 class="subheader">Workshop Name</h5>
-                                      <h6 class="subheader">Date</h6>
-                                    </div>
-                                  </div><hr>
-                   
-                                  <div class="row">
-                                    <div class="large-1 column">
-                                      <img src="http://placehold.it/50x50&text=[img]">
-                                    </div>
-                   
-                                    <div class="large-9 columns">
-                                      <h5 class="subheader">Workshop Name</h5>
-                                      <h6 class="subheader">Date</h6>
-                                    </div>
-                                  </div>
-                                </div>
                               </div>
                               <!-- End Shows -->
                    
@@ -110,7 +65,8 @@ Template Name: Home Page
                               <!-- Image -->
                    
                               <div class="large-4 small-6 columns">
-                                <img src="http://placehold.it/300x465&text=Image">
+                              	<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Home Center')) : endif; ?>
+                                
                               </div>
                    
                               <!-- End Image -->
@@ -119,25 +75,8 @@ Template Name: Home Page
                               <!-- Feed -->
                    
                               <div class="large-4 small-12 columns">
-                   
-                                <h4>Lessons</h4><hr>
-                                <div class="panel">
-                                  <h5>Type</h5>
-                   
-                                  <h6 class="subheader">
-                                    Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Suspendisse ultrices ornare tempor...
-                                  </h6>
-                   
-                                  <h6><a href="#">Read More »</a></h6>
-                                </div>
-                   
-                                <div class="panel hide-for-small">
-                                  <h5>Type 2</h5>
-                                </div>
-                   
-                                <div class="panel hide-for-small">
-                                  <h5>Type 3</h5>
-                                </div>
+                              
+                              <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Home Right')) : endif; ?>
                    
                               </div>
                    

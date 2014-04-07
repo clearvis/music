@@ -135,6 +135,36 @@ function joints_register_sidebars() {
 		'before_title' => '<h4 class="widgettitle">',
 		'after_title' => '</h4>',
 	));
+	
+	register_sidebar(array(
+		'id' => 'home-left',
+		'name' => __('Home Left', 'jointstheme'),
+		'description' => __('The Home Left sidebar.', 'jointstheme'),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
+	
+	register_sidebar(array(
+		'id' => 'home-center',
+		'name' => __('Home Center', 'jointstheme'),
+		'description' => __('The Home Center sidebar.', 'jointstheme'),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
+	
+	register_sidebar(array(
+		'id' => 'home-right',
+		'name' => __('Home Right', 'jointstheme'),
+		'description' => __('The Home Right sidebar.', 'jointstheme'),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
 
 	/*
 	to add more sidebars or widgetized areas, just copy
