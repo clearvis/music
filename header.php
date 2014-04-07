@@ -59,7 +59,7 @@
 
 					<div id="inner-header" class="row">
                     
-						<div class="large-12 columns">
+						<div class="large-12 columns show-for-medium-up">
 							<h1 class="logo">
 								<a href="<?php echo home_url(); ?>" rel="nofollow">
 									<?php bloginfo('name'); ?>

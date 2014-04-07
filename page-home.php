@@ -40,13 +40,13 @@ Template Name: Home Page
                         
                         <!-- Mobile Header -->
  
-                        <div class="row">
+                        <!--<div class="row">
                           <div class="large-12 columns show-for-small">
                    
                             <img src="http://placehold.it/1200x700&text=Mobile Header">
                    
                           </div>
-                        </div><br>
+                        </div><br>-->
                    
                       <!-- End Mobile Header -->
                       
