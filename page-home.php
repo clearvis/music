@@ -54,7 +54,7 @@ Template Name: Home Page
                           <div class="large-12 columns">
                             <div class="row">
                               <!-- Shows -->
-                              <div class="large-4 small-6 columns">
+                              <div class="large-4 small-12 columns">
                               
                               <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Home Left')) : endif; ?>
                    
@@ -64,7 +64,7 @@ Template Name: Home Page
                    
                               <!-- Image -->
                    
-                              <div class="large-4 small-6 columns">
+                              <div class="large-4 small-12 columns">
                               	<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Home Center')) : endif; ?>
                                 
                               </div>
