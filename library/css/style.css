@@ -7396,8 +7396,8 @@ MEDIUM
   *********************/
   /* Add extra padding to full width page */
   .page-template-page-full-width-php .page {
-    padding: 0 16px;
-    padding: 0 1rem; }
+    padding: 0 48px;
+    padding: 0 3rem; }
 
   /* entry content */
   .entry-content {
@@ -7423,6 +7423,12 @@ MEDIUM
   .widget {
     padding: 0 10px;
     margin: 2.2em 0; }
+
+  .home .widget {
+    margin-top: 0; }
+
+  .home .textwidget h4 + hr {
+    margin-top: 0; }
 
   /*********************
   FOOTER STYLES
